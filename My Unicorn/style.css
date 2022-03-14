@@ -1,0 +1,171 @@
+/* BODY */
+body{
+    padding: 0;
+    margin: 0;
+    background: url(background.png);
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+body h2, h3, i{
+    color: #EB43A3;
+    font-family: 'Courgette', cursive;
+}
+/* Body fin */
+
+
+        /* debut de barre de navigation  */
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: #C55394;
+    padding: 0px;
+}
+
+.navbar .logo h1{
+    display: flex;
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
+    color: #fff;
+    padding: 0 0 0 50px;
+}
+
+.navbar .menu a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 38px 50px;
+}
+.navbar .menu a:hover{
+    background: #EB43A3;
+}
+  /* fin de barre de navigation  */
+
+ /* image arc-en-ciel */
+ body .png{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+body .png img{
+    left: auto;
+    margin-top: 50px;
+}
+ /* fin d'image arc-en-ciel  */
+
+ /* titre sur l'arc-en-ciel  */
+ body .titre{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+body .titre h1{
+    position: absolute;
+    top: 200px;
+    font-family: 'courgette', cursive;
+    margin: 0;
+    font-size: 25px;
+    color: #EB43A3;
+}
+/* fin du titre sur l'arc-en-ciel  */
+
+/* Début section */
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section .box{
+    background: #fff;
+    height: auto;
+    width: 1100px;
+    margin: auto;
+    padding: 20px;
+    filter: drop-shadow(2px 4px 8px #333);
+    border-radius: 5px;
+    margin-top: -6%;
+}
+    /* Articles nos licornes */
+/* image nos licornes  */
+.box .image{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.box .image figure img{
+    display: flex;
+    height: 200px;
+    
+}
+.image figure img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.box .image figure img:hover{
+    transform: scale(1.2);
+}
+.box .image figure figcaption{
+    display: flex;
+    justify-content: center;
+    background: #333;
+    position: relative;
+    top: -28px;
+    opacity: 80%;
+}
+.image figure figcaption p{
+    color: #fff;
+    padding: 5px;
+    margin: 0;
+}
+/* fin Articles nos licornes  */
+
+/* Articles Nous trouver */
+.box .contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box .formulaire{
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0 75px 0 0;
+}
+
+.box .formulaire form input{
+    padding: 8px 16px;
+    font-size: 16px;
+}
+.box button{
+    background: #EB43A3;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+/* fin articles nous trouver  */
+
+
+
+/* Début pieds de page  */
+
+footer{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background: #C55394;
+    margin-top: 20px;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    padding: 0 16px 0 0;
+    color: #fff;
+}
+/* fin pieds de page  */
